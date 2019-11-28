@@ -12,11 +12,11 @@ public class ModelCubeDayHzInit {
 
 
     public static void main(String[] args) {
-        //try {
+        try {
          for(int i=-3;i>=-33;i--) {
              String date = getDate(i);
              System.out.println(date);
-           /*  System.out.println(date);
+             System.out.println(date);
              reloadTable(date);
              System.out.println("数据加载中.....");
              Thread.sleep(1000);
@@ -24,11 +24,11 @@ public class ModelCubeDayHzInit {
              System.out.println("创建model中.....");
              Thread.sleep(10000);
              createCube(date);
-             System.out.println("创建cube中.....");*/
+             System.out.println("创建cube中.....");
          }
-       /* } catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     private static final String baseURL = "http://10.1.24.203:7070/kylin/api";
