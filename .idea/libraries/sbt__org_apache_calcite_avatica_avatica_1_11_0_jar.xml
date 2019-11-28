@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.calcite.avatica:avatica:1.11.0:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.calcite.avatica/avatica/jars/avatica-1.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.calcite.avatica/avatica/jars/avatica-1.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.calcite.avatica/avatica/srcs/avatica-1.11.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.calcite.avatica/avatica/srcs/avatica-1.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

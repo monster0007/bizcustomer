@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.datanucleus:datanucleus-core:4.1.6:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.datanucleus/datanucleus-core/jars/datanucleus-core-4.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.datanucleus/datanucleus-core/jars/datanucleus-core-4.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.datanucleus/datanucleus-core/srcs/datanucleus-core-4.1.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.datanucleus/datanucleus-core/srcs/datanucleus-core-4.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

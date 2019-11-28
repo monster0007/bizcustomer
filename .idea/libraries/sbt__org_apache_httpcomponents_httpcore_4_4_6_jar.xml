@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.httpcomponents:httpcore:4.4.6:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

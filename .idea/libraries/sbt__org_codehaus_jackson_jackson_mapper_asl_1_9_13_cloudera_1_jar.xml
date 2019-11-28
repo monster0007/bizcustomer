@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: org.codehaus.jackson:jackson-mapper-asl:1.9.13-cloudera.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13-cloudera.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13-cloudera.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

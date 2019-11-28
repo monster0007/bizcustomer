@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: org.cloudera.logredactor:logredactor:2.0.6:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.cloudera.logredactor/logredactor/jars/logredactor-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.cloudera.logredactor/logredactor/jars/logredactor-2.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

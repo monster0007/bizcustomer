@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hive:hive-exec:2.1.1-cdh6.0.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.hive/hive-exec/jars/hive-exec-2.1.1-cdh6.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hive/hive-exec/jars/hive-exec-2.1.1-cdh6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

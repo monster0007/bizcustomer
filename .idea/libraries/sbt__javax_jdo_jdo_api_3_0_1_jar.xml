@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: javax.jdo:jdo-api:3.0.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/javax.jdo/jdo-api/jars/jdo-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/javax.jdo/jdo-api/jars/jdo-api-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/javax.jdo/jdo-api/srcs/jdo-api-3.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/javax.jdo/jdo-api/srcs/jdo-api-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

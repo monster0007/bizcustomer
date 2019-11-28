@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.nimbusds:nimbus-jose-jwt:4.41.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/jars/nimbus-jose-jwt-4.41.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/jars/nimbus-jose-jwt-4.41.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/srcs/nimbus-jose-jwt-4.41.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/srcs/nimbus-jose-jwt-4.41.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

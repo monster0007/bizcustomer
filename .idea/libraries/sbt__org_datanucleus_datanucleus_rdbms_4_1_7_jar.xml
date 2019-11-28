@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.datanucleus:datanucleus-rdbms:4.1.7:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.datanucleus/datanucleus-rdbms/jars/datanucleus-rdbms-4.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.datanucleus/datanucleus-rdbms/jars/datanucleus-rdbms-4.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.datanucleus/datanucleus-rdbms/srcs/datanucleus-rdbms-4.1.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.datanucleus/datanucleus-rdbms/srcs/datanucleus-rdbms-4.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

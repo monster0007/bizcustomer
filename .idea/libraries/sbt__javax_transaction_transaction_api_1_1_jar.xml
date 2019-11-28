@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: javax.transaction:transaction-api:1.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/javax.transaction/transaction-api/jars/transaction-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/javax.transaction/transaction-api/jars/transaction-api-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/javax.transaction/transaction-api/srcs/transaction-api-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/javax.transaction/transaction-api/srcs/transaction-api-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

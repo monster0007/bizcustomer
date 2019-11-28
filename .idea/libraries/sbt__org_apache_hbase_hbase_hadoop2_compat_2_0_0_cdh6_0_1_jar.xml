@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hbase:hbase-hadoop2-compat:2.0.0-cdh6.0.1:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hbase/hbase-hadoop2-compat/jars/hbase-hadoop2-compat-2.0.0-cdh6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hbase/hbase-hadoop2-compat/srcs/hbase-hadoop2-compat-2.0.0-cdh6.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: net.sf.json-lib:json-lib:2.3:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/net.sf.json-lib/json-lib/jars/json-lib-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/net.sf.json-lib/json-lib/jars/json-lib-2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

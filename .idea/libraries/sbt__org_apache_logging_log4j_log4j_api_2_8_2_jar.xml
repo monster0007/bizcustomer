@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.logging.log4j:log4j-api:2.8.2:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.8.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

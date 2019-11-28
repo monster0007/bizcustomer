@@ -1,0 +1,16 @@
+执行流程
+1.CusDayStreamHz
+
+2.CusResultDayHz
+
+3.CusMonthStreamHz
+
+4.CusResultMonthHz
+
+-------------消费层次月末跑一次------------
+CusLevelHz
+CusLevelSy
+
+消费层次 ,sys_customer
+cus_consume
+cus_consume_sy

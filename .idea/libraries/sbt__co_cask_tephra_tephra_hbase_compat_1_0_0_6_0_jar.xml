@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: co.cask.tephra:tephra-hbase-compat-1.0:0.6.0:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/co.cask.tephra/tephra-hbase-compat-1.0/jars/tephra-hbase-compat-1.0-0.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/co.cask.tephra/tephra-hbase-compat-1.0/jars/tephra-hbase-compat-1.0-0.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/co.cask.tephra/tephra-hbase-compat-1.0/srcs/tephra-hbase-compat-1.0-0.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/co.cask.tephra/tephra-hbase-compat-1.0/srcs/tephra-hbase-compat-1.0-0.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

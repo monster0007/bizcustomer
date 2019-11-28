@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: mysql:mysql-connector-java:5.1.6:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

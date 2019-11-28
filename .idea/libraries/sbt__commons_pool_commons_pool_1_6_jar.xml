@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: commons-pool:commons-pool:1.6:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/commons-pool/commons-pool/srcs/commons-pool-1.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/commons-pool/commons-pool/srcs/commons-pool-1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

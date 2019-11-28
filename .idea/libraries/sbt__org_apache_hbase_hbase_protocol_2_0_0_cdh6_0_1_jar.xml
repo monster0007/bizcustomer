@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hbase:hbase-protocol:2.0.0-cdh6.0.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.hbase/hbase-protocol/jars/hbase-protocol-2.0.0-cdh6.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hbase/hbase-protocol/jars/hbase-protocol-2.0.0-cdh6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-2.0.0-cdh6.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-2.0.0-cdh6.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

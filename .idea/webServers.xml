@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="073f227a-eeb6-495c-8148-8409f0a9fab2" name="10.1.24.124" url="http://10.1.24.124">
+        <fileTransfer host="10.1.24.124" port="22" rootFolder="/home/sparkjars" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

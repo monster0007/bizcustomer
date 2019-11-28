@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.hbase.thirdparty:hbase-shaded-netty:2.1.0:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/jars/hbase-shaded-netty-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/jars/hbase-shaded-netty-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/srcs/hbase-shaded-netty-2.1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/srcs/hbase-shaded-netty-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

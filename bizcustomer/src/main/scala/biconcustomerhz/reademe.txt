@@ -1,0 +1,22 @@
+一.跑历史数据
+1.CustomerAnalyseDayInitHzTwo
+2.CustomerResultHz
+3.CustomerAnalyseMonthHz
+4.CustomerResultHzMonth
+
+
+
+-----------------------
+CustomerAnalyseConLevelHz
+
+
+MonthInit$
+MonthLevelInit$
+
+
+
+
+-------------
+消费层次 ,sys_customer
+cus_consume
+cus_consume_sy

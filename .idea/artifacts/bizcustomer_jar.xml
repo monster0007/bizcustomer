@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bizcustomer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/bizcustomer_jar</output-path>
+    <root id="archive" name="bizcustomer.jar">
+      <element id="module-output" name="bizcustomer" />
+      <element id="extracted-dir" path="D:/sbt/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

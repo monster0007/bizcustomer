@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.datanucleus:datanucleus-api-jdo:4.2.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/jars/datanucleus-api-jdo-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/jars/datanucleus-api-jdo-4.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/srcs/datanucleus-api-jdo-4.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/srcs/datanucleus-api-jdo-4.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="D:\SowftwareSetup\IT\plugins\sbt\bin\sbt-launch.jar" />
+    <option name="customVMPath" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/bizcustomer" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/bizcustomer" />
+            <option value="$PROJECT_DIR$/bizcustomer/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.0.0" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="E:/IdeaProjects/untitled/bizcustomer" />
+        <option name="useAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-Dsbt.log.format=true -Dsbt.global.base=D:/SowftwareSetup/IT/plugins/sbt/.sbt -Dsbt.boot.directory=D:/SowftwareSetup/IT/plugins/sbt/.sbt/boot/ -Dsbt.ivy.home=D:/SowftwareSetup/IT/plugins/sbt/.ivy2 -Dsbt.repository.config=D:/SowftwareSetup/IT/plugins/sbt/.sbt/repo.properties" />
+  </component>
+</project>

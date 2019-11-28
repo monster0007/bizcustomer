@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.jvm.uuid:scala-uuid_2.11:0.3.0:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/io.jvm.uuid/scala-uuid_2.11/jars/scala-uuid_2.11-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/io.jvm.uuid/scala-uuid_2.11/srcs/scala-uuid_2.11-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

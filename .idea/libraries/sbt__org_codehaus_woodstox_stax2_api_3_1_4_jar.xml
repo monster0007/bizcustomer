@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.codehaus.woodstox:stax2-api:3.1.4:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-3.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.codehaus.woodstox/stax2-api/srcs/stax2-api-3.1.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.codehaus.woodstox/stax2-api/srcs/stax2-api-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

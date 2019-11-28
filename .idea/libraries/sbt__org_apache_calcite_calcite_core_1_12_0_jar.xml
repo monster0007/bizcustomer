@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.calcite:calcite-core:1.12.0:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.calcite/calcite-core/jars/calcite-core-1.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.calcite/calcite-core/jars/calcite-core-1.12.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.calcite/calcite-core/srcs/calcite-core-1.12.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.calcite/calcite-core/srcs/calcite-core-1.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

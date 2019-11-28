@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.kerby:kerb-simplekdc:1.0.0:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.kerby/kerb-simplekdc/jars/kerb-simplekdc-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.kerby/kerb-simplekdc/jars/kerb-simplekdc-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.kerby/kerb-simplekdc/srcs/kerb-simplekdc-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.kerby/kerb-simplekdc/srcs/kerb-simplekdc-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

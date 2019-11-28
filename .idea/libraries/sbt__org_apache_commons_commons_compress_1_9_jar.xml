@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.commons:commons-compress:1.9:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../plugins/sbt/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
