@@ -2,6 +2,12 @@ package biconcustomerhz
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
+/**
+  *c_hz_day_20191127 出现异常 主键重复
+  * step1.修改hdfs 文件块
+  *step2. cus_customer 去重后 需要重跑
+  *
+  */
 object CustomerResultHz {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().appName("writToCusDemssion").master("yarn").enableHiveSupport().config("file.encoding", "UTF-8").getOrCreate()

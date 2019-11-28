@@ -6,6 +6,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import org.apache.commons.codec.binary.Base64;
 
+/**
+ * 每天实时跑 在hue   kylin_bulid
+ */
 
 public class BuildHzDayAndMonth {
     static String ACCOUNT = "ADMIN";

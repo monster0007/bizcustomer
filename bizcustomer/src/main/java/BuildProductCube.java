@@ -7,7 +7,9 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-
+/**
+ *  * 每天实时跑 在hue  kpi_kylinbuild
+ */
 public class BuildProductCube {
     static String ACCOUNT = "ADMIN";
     static String PWD = "KYLIN";
