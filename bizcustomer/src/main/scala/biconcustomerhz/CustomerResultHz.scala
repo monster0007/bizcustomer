@@ -10,9 +10,10 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
   */
 object CustomerResultHz {
   def main(args: Array[String]): Unit = {
-    val spark = SparkSession.builder().appName("writToCusDemssion").master("yarn").enableHiveSupport().config("file.encoding", "UTF-8").getOrCreate()
+    val spark = SparkSession.builder().appName("writToCusDemssion").master("local[*]").enableHiveSupport().config("file.encoding", "UTF-8").getOrCreate()
     val sc = spark.sparkContext
-    val num=args(0).toString
+    //val num=args(0).toString //"2019-11-26"
+    val num="2019-11-27" //
     val date=num.replace("-","")
     val customreDf=getResult(spark,num)
     val path="hdfs://nameservice1/user/hive/warehouse/sys_customer.db/sys_cus_hz_"+date
@@ -55,7 +56,7 @@ object CustomerResultHz {
         |from sys_customer.dm_custom m
         |join sys_customer.cus_consume c on m.customerid=c.customerid and m.selfflag=c.is_own
         |left join sys_customer.customer_info i on m.customerid=i.id
-        |where c.month="2019-08"
+        |where c.month="2019-11"
         |and m.currenttime=
       """.stripMargin+"\""+num+"\"")
     data

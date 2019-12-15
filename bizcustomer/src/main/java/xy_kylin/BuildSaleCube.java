@@ -11,7 +11,7 @@ import java.net.URL;
 public class BuildSaleCube {
     static String ACCOUNT = "ADMIN";
     static String PWD = "KYLIN";
-    static  String baseURL="http://10.1.24.219:18080/kylin/api";
+    static  String baseURL="http://10.1.24.218:18080/kylin/api";
 
     public static void main(String[] args) {
         try {

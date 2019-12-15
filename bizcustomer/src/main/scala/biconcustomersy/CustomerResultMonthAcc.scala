@@ -2,6 +2,13 @@ package biconcustomersy
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
+/**
+  * /user/hive/warehouse/sys_customer.db/cus_consume_sy/month=2019-11
+  * select * from sys_customer.cus_consume_sy where customerid=157887 and month = '2019-11';
+  * step1.  sys_customer.cus_customer_sy 去重 hdfs 修改文件
+  *
+  *
+  */
 object CustomerResultMonthAcc {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().appName("writToCusDemssion").master("yarn").enableHiveSupport().config("file.encoding", "UTF-8").getOrCreate()
@@ -10,7 +17,8 @@ object CustomerResultMonthAcc {
 //      "2017-09","2017-10","2017-11","2017-12","2018-01","2018-02","2018-03","2018-04","2018-05","2018-06",
 //      "2018-07","2018-08","2018-09","2018-10","2018-11","2018-12"
 //    )
-    val timeList=List("2019-07")
+    val timeList=List("2019-11")
+    //val timeList=List( args(0).toString)
     timeList.foreach(dat=>{
       val num=dat
       val date=num.replace("-","")

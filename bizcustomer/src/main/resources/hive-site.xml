@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>hive.metastore.uris</name>
-    <value>thrift://bd139:9083</value>
+    <value>thrift://bd199:9083</value>
   </property>
   <property>
     <name>hive.metastore.client.socket.timeout</name>
@@ -112,7 +112,7 @@
   </property>
   <property>
     <name>hive.fetch.task.conversion</name>
-    <value>minimal</value>
+    <value>more</value>
   </property>
   <property>
     <name>hive.fetch.task.conversion.threshold</name>
@@ -160,7 +160,7 @@
   </property>
   <property>
     <name>spark.executor.memory</name>
-    <value>769182924b</value>
+    <value>1073741824b</value>
   </property>
   <property>
     <name>spark.driver.memory</name>
@@ -176,7 +176,7 @@
   </property>
   <property>
     <name>spark.yarn.executor.memoryOverhead</name>
-    <value>129m</value>
+    <value>200m</value>
   </property>
   <property>
     <name>spark.dynamicAllocation.enabled</name>
@@ -204,7 +204,7 @@
   </property>
   <property>
     <name>hive.zookeeper.quorum</name>
-    <value>bd139,bd135,bd137,bd136,bd138</value>
+    <value>bd201,bd200,bd197,bd198,bd199</value>
   </property>
   <property>
     <name>hive.zookeeper.client.port</name>
@@ -216,7 +216,7 @@
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>bd139,bd135,bd137,bd136,bd138</value>
+    <value>bd201,bd200,bd197,bd198,bd199</value>
   </property>
   <property>
     <name>hbase.zookeeper.property.clientPort</name>
@@ -228,7 +228,7 @@
   </property>
   <property>
     <name>hive.server2.enable.doAs</name>
-    <value>true</value>
+    <value>false</value>
   </property>
   <property>
     <name>hive.server2.use.SSL</name>
@@ -256,6 +256,14 @@
   </property>
   <property>
     <name>hive.strict.checks.bucketing</name>
+    <value>true</value>
+  </property>
+  <property>
+    <name>hive.cli.print.current.db</name>
+    <value>true</value>
+  </property>
+  <property>
+    <name>hive.cli.print.header</name>
     <value>true</value>
   </property>
 </configuration>

@@ -16,43 +16,43 @@
   </property>
   <property>
     <name>ha.zookeeper.quorum</name>
-    <value>bd135:2181,bd136:2181,bd137:2181,bd138:2181,bd139:2181</value>
+    <value>bd197:2181,bd198:2181,bd199:2181,bd200:2181,bd201:2181</value>
   </property>
   <property>
     <name>dfs.ha.namenodes.nameservice1</name>
-    <value>namenode102,namenode135</value>
+    <value>namenode118,namenode153</value>
   </property>
   <property>
-    <name>dfs.namenode.rpc-address.nameservice1.namenode102</name>
-    <value>bd135:8020</value>
+    <name>dfs.namenode.rpc-address.nameservice1.namenode118</name>
+    <value>bd196:8020</value>
   </property>
   <property>
-    <name>dfs.namenode.servicerpc-address.nameservice1.namenode102</name>
-    <value>bd135:8022</value>
+    <name>dfs.namenode.servicerpc-address.nameservice1.namenode118</name>
+    <value>bd196:8022</value>
   </property>
   <property>
-    <name>dfs.namenode.http-address.nameservice1.namenode102</name>
-    <value>bd135:9870</value>
+    <name>dfs.namenode.http-address.nameservice1.namenode118</name>
+    <value>bd196:9870</value>
   </property>
   <property>
-    <name>dfs.namenode.https-address.nameservice1.namenode102</name>
-    <value>bd135:9871</value>
+    <name>dfs.namenode.https-address.nameservice1.namenode118</name>
+    <value>bd196:9871</value>
   </property>
   <property>
-    <name>dfs.namenode.rpc-address.nameservice1.namenode135</name>
-    <value>bd136:8020</value>
+    <name>dfs.namenode.rpc-address.nameservice1.namenode153</name>
+    <value>bd198:8020</value>
   </property>
   <property>
-    <name>dfs.namenode.servicerpc-address.nameservice1.namenode135</name>
-    <value>bd136:8022</value>
+    <name>dfs.namenode.servicerpc-address.nameservice1.namenode153</name>
+    <value>bd198:8022</value>
   </property>
   <property>
-    <name>dfs.namenode.http-address.nameservice1.namenode135</name>
-    <value>bd136:9870</value>
+    <name>dfs.namenode.http-address.nameservice1.namenode153</name>
+    <value>bd198:9870</value>
   </property>
   <property>
-    <name>dfs.namenode.https-address.nameservice1.namenode135</name>
-    <value>bd136:9871</value>
+    <name>dfs.namenode.https-address.nameservice1.namenode153</name>
+    <value>bd198:9871</value>
   </property>
   <property>
     <name>dfs.replication</name>

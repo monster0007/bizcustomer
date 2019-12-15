@@ -4,13 +4,14 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object CustomerResultHzMonth {
   def main(args: Array[String]): Unit = {
-    val spark = SparkSession.builder().appName("CustomerResultHzMonth").master("local[*]").enableHiveSupport().config("file.encoding", "UTF-8").getOrCreate()
+    val spark = SparkSession.builder().appName("CustomerResultHzMonth").master("yarn").enableHiveSupport().config("file.encoding", "UTF-8").getOrCreate()
     val sc = spark.sparkContext
 //    val timeList=List("2017-01","2017-02","2017-03","2017-04","2017-05","2017-06","2017-07","2017-08",
 //      "2017-09","2017-10","2017-11","2017-12","2018-01","2018-02","2018-03","2018-04","2018-05","2018-06",
 //      "2018-07","2018-08","2018-09","2018-10","2018-11","2018-12"
 //    )
-    val timeList=List("2019-07")
+    //val timeList=List("2019-11")
+    val timeList=List(args(0).toString)
     timeList.foreach(dat=>{
       val num=dat
       val date=num.replace("-","")
