@@ -13,7 +13,7 @@ public class ModelCubeDaySyInit {
 
     public static void main(String[] args) {
         try {
-            for(int i=-1;i>=-30;i--){
+            for(int i=-11;i>=-41;i--){
                 String date = getDate(i); //昨天的日期
                 System.out.println(date);
                 reloadTable(date);

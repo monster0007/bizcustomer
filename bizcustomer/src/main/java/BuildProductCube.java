@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 /**
- *  * 每天实时跑 在hue  kpi_kylinbuild
+ *  * 每天实时跑 在hue  bus_kpi
  */
 public class BuildProductCube {
     static String ACCOUNT = "ADMIN";

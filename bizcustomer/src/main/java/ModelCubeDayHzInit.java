@@ -13,9 +13,8 @@ public class ModelCubeDayHzInit {
 
     public static void main(String[] args) {
         try {
-         for(int i=-3;i>=-33;i--) {
+         for(int i=-11;i>=-41;i--) {
              String date = getDate(i);
-             System.out.println(date);
              System.out.println(date);
              reloadTable(date);
              System.out.println("数据加载中.....");
@@ -26,7 +25,7 @@ public class ModelCubeDayHzInit {
              createCube(date);
              System.out.println("创建cube中.....");
          }
-        } catch (InterruptedException e) {
+       } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }

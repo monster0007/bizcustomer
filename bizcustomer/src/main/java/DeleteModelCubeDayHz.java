@@ -9,6 +9,9 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * 可以三个月前 不用的 sys_customer 天的cube
+ */
 public class DeleteModelCubeDayHz {
 
 

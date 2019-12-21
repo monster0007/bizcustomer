@@ -17,6 +17,6 @@ MonthLevelInit$
 
 
 -------------
-消费层次 ,sys_customer
+消费层次 ,sys_customer 出现 主键冲突异常首先找到这个文件
 cus_consume
 cus_consume_sy

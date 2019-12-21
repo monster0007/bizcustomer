@@ -8,6 +8,9 @@ import org.apache.commons.codec.binary.Base64;
 
 /**
  * 每天实时跑 在hue   kylin_bulid
+ * kylin sys_customer  四个cuube构建
+ * c_hz_month_201912  c_sy_month_201912 (每个月)
+ *c_sy_day_20191214 c_hz_day_20191214 (每天)
  */
 
 public class BuildHzDayAndMonth {

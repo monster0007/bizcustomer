@@ -1,0 +1,111 @@
+每月月末,提前(124脚本所在位置 /home/sparkjars/kylincurl/)
+------------------sy 124 节点----------------------------
+Step1. /home/sparkjars/kylincurl/createtable.sh 建表
+for ((i=1;i<=30;i++))
+do
+if [ $i -lt 10 ]
+        then
+        echo create table sys_customer.sys_cus_sy_2019090$i like sys_customer.sys_cus_sy_20190628 > create.hql;
+        hive -f create.hql;
+else
+        echo create table sys_customer.sys_cus_sy_201909$i like sys_customer.sys_cus_sy_20190628 > create.hql;
+        hive -f create.hql;
+fi
+done
+
+
+step2.构建 mode cube
+
+D:\SowftwareSetup\IT\devtools\ideaWorkspace\untitled\bizcustomer\src\main\java\ModelCubeDaySyInit.java
+
+step3.月model
+1).建表
+sys_cus_sy_202001
+create table sys_customer.sys_cus_sy_202001 like sys_customer.sys_cus_sy_201912
+2).kylin手动构建model 和模型
+参照 m_sy_month_201912 创建 m_sy_month_202001
+
+SYS_CUSTOMER.SYS_CUSTOMER_SALEFACT
+SYS_CUSTOMER.PCD_GOODS          ON SYS_CUSTOMER_SALEFACT.GOODSID = PCD_GOODS.GOODSID
+SYS_CUSTOMER.SYS_CUSTOMER_BUS   ON SYS_CUSTOMER_SALEFACT.ACCOUNTID = SYS_CUSTOMER_BUS.ACCOUNTID
+SYS_CUSTOMER.SYS_CUS_SY_202001  ON SYS_CUSTOMER_SALEFACT.CUSTOMERID = SYS_CUS_SY_202001.CUSTOMERID
+
+
+
+------------------hz 124 节点----------------------------
+step1.建表(sys_customer.sys_cus_hz_20191210,与之前表结构类似)
+
+/home/sparkjars/kylincurl/createtable.sh
+脚本内容:
+for ((i=1;i<=30;i++))
+do
+if [ $i -lt 10 ]
+        then
+        echo create table sys_customer.sys_cus_hz_20191210$i like sys_customer.sys_cus_hz_20191101 > create.hql;
+        hive -f create.hql;
+else
+        echo create table sys_customer.sys_cus_hz_20191210$i like sys_customer.sys_cus_hz_20191101 > create.hql;
+        hive -f create.hql;
+fi
+done
+
+注释:执行以上脚本的时候  可以去sys_customer 目录下查看 表是否创建成功
+
+such as : hive (sys_customer)> show tables like 'sys_cus_sy_2020*';
+
+
+step2.构建 mode cube
+D:\SowftwareSetup\IT\devtools\ideaWorkspace\untitled\bizcustomer\src\main\java\ModelCubeDayHzInit.java
+
+
+step3.删除
+/home/sparkjars/kylincurl/
+
+step4.月model
+
+1.建表sys_cus_hz_201911
+create table sys_customer.sys_cus_hz_202001 like sys_customer.sys_cus_hz_201912
+
+2.手动构建model
+1).建表
+sys_cus_sy_202001
+create table sys_customer.sys_cus_hz_202001 like sys_customer.sys_cus_hz_201912
+2).kylin手动构建model 和模型
+参照 m_hz_month_201912 创建 m_hz_month_202001
+
+SYS_CUSTOMER.SYS_CUSTOMER_SALEFACT
+SYS_CUSTOMER.PCD_GOODS          ON SYS_CUSTOMER_SALEFACT.GOODSID = PCD_GOODS.GOODSID
+SYS_CUSTOMER.SYS_CUSTOMER_BUS   ON SYS_CUSTOMER_SALEFACT.ACCOUNTID = SYS_CUSTOMER_BUS.ACCOUNTID
+SYS_CUSTOMER.SYS_CUS_HZ_202001  ON SYS_CUSTOMER_SALEFACT.CUSTOMERID = SYS_CUS_HZ_202001.CUSTOMERID
+
+
+---------ogg 230-------
+/home/oggmonitor/monitor.sh
+
+
+#!bin/bash
+#变量
+oggdata_home=/home/mysql/ogg/dirdat
+
+#当前时间
+currtime=`date '+%Y-%m-%d %H:%M:%S'`
+current_second=$(date --date="$currtime" +%s)
+
+filedir=('xhdat' 'bcdat' 'kldat' 'lzdatn' 'sjhtdat' 'xydat')
+filename=('xh' 'bc' 'kl' 'lz' 'sj' 'xy')
+busname=('鑫和' '百川' '康利' '绿洲' '四季' '新阳')
+for((i=0;i<=5;i++))
+do
+file=`ls -lt $oggdata_home/${filedir[i]}/ | grep ${filename[i]} | head -n 1 |awk '{print $9}'`
+echo $file
+echo "$oggdata_home/${filedir[i]}"/$file
+file_seconds=`stat -c %Y "$oggdata_home/${filedir[i]}"/$file`
+timediff=$(($((current_second-file_seconds))/60))
+echo $timediff
+if [[ $timediff -gt 30 ]]&&[[ $timediff -lt 60 ]]
+  then
+  echo "${busname[i]}源数据停留在了$timediff分钟前" > /home/oggmonitor/ogg.txt
+  mail -s 'ogg数据监测' 1114203030@qq.com < /home/oggmonitor/ogg.txt
+  mail -s 'ogg数据监测' 869728637@qq.com < /home/oggmonitor/ogg.txt
+fi
+done
